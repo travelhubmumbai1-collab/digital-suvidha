@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Suvidha</title>
+</head>
+<body>
+  <h1>Welcome to Digital Suvidha</h1>
+  <!-- WhatsApp Chat Widget Code -->
+  <script src="https://wati.io/widget.js" async></script>
+  <script>
+    var options = {
+      "enabled": true,
+      "chatButtonSetting": {
+        "backgroundColor": "#25D366",
+        "ctaText": "Chat with us",
+        "position": "right"
+      },
+      "brandSetting": {
+        "brandName": "Digital Suvidha",
+        "brandSubTitle": "Your Growth Partner in Digital Success",
+        "brandImg": "YOUR_LOGO_URL",  // Yahan apne logo ka URL daalein
+        "welcomeText": "Hi 👋\nHow can Digital Suvidha help you today?",
+        "phoneNumber": "917900143981"
+      }
+    };
+    createWhatsappChatWidget(options);
+  </script>
+</body>
+</html>
